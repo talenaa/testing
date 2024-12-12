@@ -45,7 +45,7 @@ ul li a:hover {
 }
 
 .hero {
-    background: url('/img/bannerSanta.png') no-repeat center/cover;
+    background: url('/img/banner.png') no-repeat center/cover;
     height: 80vh;
     margin-top: 5px;
     display: flex;
