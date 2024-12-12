@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background: linear-gradient(to right, #ff0000, #00ff00);
+    background: linear-gradient(to right, #620202, #144414);
     padding: 1rem;
     text-align: center;
     color: white;
@@ -32,7 +32,7 @@ ul {
 
 ul li a {
     text-decoration: none;
-    color: #11561f;
+    color: #f8f9fa;
     font-family: monospace;
     font-size: 20px;
     font-weight: bold;
@@ -42,12 +42,13 @@ ul li a {
 }
 
 ul li a:hover {
-    color: #6c1111;
+    color: #bf0808;
 }
 
 .hero {
     background: url('/img/bannerSanta.png') no-repeat center/cover;
     height: 80vh;
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,7 +68,16 @@ ul li a:hover {
 }
 
 .cta-btn:hover {
-    background-color: #c70039;
+    background-color: #27591b;
+}
+
+.linkButton {
+    font-size: 1.2rem;
+    font-family: arial;
+    font-weight: bold;
+    color: #f8f9fa;
+    text-shadow: 2px 2px #000;
+    text-decoration: none;
 }
 
 .products {
