@@ -45,7 +45,7 @@ ul li a:hover {
 }
 
 .hero {
-    background: url('/img/banner.png') no-repeat center/cover;
+    background: url('./img/banner.png') no-repeat center/cover;
     height: 80vh;
     margin-top: 5px;
     display: flex;
@@ -67,6 +67,7 @@ ul li a:hover {
 }
 
 .cta-btn:hover {
+    transition: 0.8s all linear;
     background-color: #27591b;
 }
 
@@ -103,10 +104,29 @@ ul li a:hover {
     transform: scale(1.05);
 }
 
-.footer {
+footer {
     background: #333;
     color: white;
     text-align: center;
     padding: 1rem;
     font-weight: bold;
+}
+
+.git {
+    border-radius: 50%;
+    width: 50px;
+    outline: 2px solid #fff;
+    transition-property:
+    outline-offset, outline-color,
+    background-color;
+    transition-duration: .25s;
+}
+
+.git:hover {
+    outline-offset: 4px;
+    background-color: #144414;
+}
+
+.git:hover i {
+    animation: shake .25s;
 }
