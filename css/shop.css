@@ -35,8 +35,8 @@ ul {
 ul li a {
     text-decoration: none;
     color: #f8f9fa;
-    font-family: monospace;
-    font-size: 20px;
+    font-family: arial;
+    font-size: 17px;
     font-weight: bold;
     position: relative;
     transition: 0.8s all linear;
@@ -47,10 +47,101 @@ ul li a:hover {
     color: #bf0808;
 }
 
-.footer {
+footer {
     background: #333;
     color: white;
     text-align: center;
     padding: 1rem;
     font-weight: bold;
+}
+
+.shop-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #b21a1a;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #16350f;
+    overflow: hidden;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px #3f0909e7;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-title {
+    font-family: arial;
+    font-size: 1.2em;
+    margin: 0 0 10px;
+    color: #ffffff;
+}
+
+.card-description {
+    font-family: arial;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.card-price {
+    font-family: arial;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: bold;
+}
+
+.button {
+    font-family: arial;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #ff5733;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+}
+
+.button:hover {
+    background-color: #27591b;
+}
+
+.git {
+    border-radius: 50%;
+    width: 44px;
+    outline: 2px solid #fff;
+    transition-property:
+    outline-offset, outline-color,
+    background-color;
+    transition-duration: .25s;
+}
+
+.git:hover {
+    outline-offset: 4px;
+    background-color: #144414;
+}
+
+.git:hover i {
+    animation: shake .25s;
 }
