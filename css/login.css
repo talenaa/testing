@@ -31,7 +31,7 @@ section {
 
 h1 {
     font-size: 2rem;
-    color: #fff;
+    color: #ffc420;
     text-align: center;
 }
 
@@ -39,7 +39,7 @@ h1 {
     position: relative;
     margin: 30px 0;
     max-width: 310px;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #000;
 }
 
 .inputBox label {
@@ -47,7 +47,7 @@ h1 {
     top: 50%;
     left: 5px;
     transform: translate(-50%);
-    color: #fff;
+    color: #ffc420;
     font-size: 1rem;
     pointer-events: none;
     transition: all 0.5s ease-in-out;
